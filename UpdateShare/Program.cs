@@ -57,12 +57,12 @@ do
     foreach (var item in response.Items)
     {
         Console.WriteLine($"Share \n" + 
-            $"id: { item.Id} \n" +
-            $"type: { item.Type} \n" +
-            $"group ID: { item.GroupId} \n" +
-            $"email: { item.Email} \n" +
-            $"name: { item.Name} \n" +
-            $"user ID: { item.UserId} \n" +
+            $"Id: { item.Id} \n" +
+            $"Type: { item.Type} \n" +
+            $"GroupId: { item.GroupId} \n" +
+            $"Email: { item.Email} \n" +
+            $"Name: { item.Name} \n" +
+            $"UserId: { item.UserId} \n" +
             $"AccessLevel: { item.AccessLevel} \n" +
             $"Scope: { item.Scope} ");
     }
